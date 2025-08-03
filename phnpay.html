@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhonePe</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+.header-right {
+  text-align: right;
+  font-size: 12px;
+}
+.emi-section {
+  background: #222;
+  text-align: center;
+  padding: 20px;
+}
+.subtitle {
+  color: #ccc;
+  margin: 0;
+}
+h2 {
+  margin: 5px 0;
+}
+.select-lender {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
+.section {
+  padding: 15px;
+}
+h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.view-all {
+  float: right;
+  color: #a46cff;
+  font-size: 14px;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+.grid.four {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid.two {
+  grid-template-columns: repeat(2, 1fr);
+}
+.card {
+  background-color: #222;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+.card.full {
+  padding: 15px;
+  text-align: left;
+}
+.card.purple {
+  background-color: #6e32e9;
+}
+.card .tag {
+  background: #a46cff;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.promo {
+  background: #6e32e9;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  border-top: 1px solid #333;
+  font-size: 12px;
+}
+.scan {
+  background: #a46cff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+}
+  </style>
+</head>
+<body>
+  <section class="emi-section">
+    <p class="subtitle">Avoid late fees</p>
+    <h2>Pay Loan EMIs instantly</h2>
+    <button class="select-lender">Select Your Lender ➜</button>
+  </section>
+  <section class="section">
+    <h3>Money Transfers</h3>
+    <div class="grid four">
+      <div class="card purple">📱<p>To Mobile Number</p></div>
+      <div class="card purple">🏦<p>To Bank & Self A/c</p></div>
+      <div class="card purple">📢<p>Refer & Get ₹200</p></div>
+      <div class="card purple">💰<p>Check Balance</p></div>
+    </div>
+  </section>
+  <section class="section">
+    <h3>Recharge & Bills <span class="view-all">View All</span></h3>
+    <div class="grid four">
+      <div class="card">🔋<p>Recharge</p></div>
+      <div class="card">📘<p>Tuition Fees</p></div>
+      <div class="card">💡<p>Electricity</p></div>
+      <div class="card">💵<p>Loan EMI</p></div>
+    </div>
+  </section>
+  <section class="section grid two">
+    <div class="card full">Loans<br><span>Personal, Gold and more</span></div>
+    <div class="card full">Insurance<br><span class="tag">Offer</span></div>
+    <div class="card full">Savings<br><span>Save Daily, Gold SIP</span></div>
+    <div class="card full">Travel & Transit<br><span>Flight, Train, Bus</span></div>
+    <div class="card full">Mutual Funds<br><span>SIPs & Investments</span></div>
+  </section>
+  <section class="promo">
+     Up to ₹5000 off on flights✈ <span>➜</span>
+    <p>Use code PPMONSOON</p>
+  </section>
+  <section class="section">
+    <h3>Manage Payments <span class="view-all">View All</span></h3>
+    <div class="grid four">
+      <div class="card">👛<p>Wallet</p></div>
+      <div class="card">⚡<p>UPI Lite</p></div>
+      <div class="card">👨‍👩‍👧‍👦<p>UPI Circle</p></div>
+      <div class="card">💳<p>RuPay on UPI</p></div>
+    </div>
+  </section>
+  <nav class="bottom-nav">
+    <div>🏠<br>Home</div>
+    <div>🔍<br>Search</div>
+    <div class="scan">🔳</div>
+    <div>🔔<br>Alerts</div>
+    <div>📜<br>History</div>
+  </nav>
+</body>
+</html>
